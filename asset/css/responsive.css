@@ -1,0 +1,70 @@
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 14px;
+    }
+
+    #about .container, #skills .container, #projects .container, #contact .container {
+        padding: 0 50px;
+    }
+
+    .intro .btn-danger {
+        width: 150px;
+        height: 40px;
+    }
+
+    #about .box-left {
+        width: 70%;
+    }
+
+    #skills .skill {
+        width: 100%;
+    }
+
+    header .menu {
+        display: none;
+    }
+    header .open-menu {
+        display: block;
+    }
+
+    #footer .wrap-footer {
+        flex-direction: column;
+    }
+    #footer .wrap-footer h2 {
+        margin-top: 20px;
+    }
+    .footer-about, .footer-quicklinks, .footer-address {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #about .container, #skills .container, #projects .container, #contact .container {
+        padding: 0 20px;
+    }
+
+    #about .box-left {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .box-left img {
+        width: 100%;
+    }
+    #about .info {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #projects .projects {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #footer .wrap-footer{
+        padding: 0 10px;
+    }
+    .footer-about, .footer-quicklinks, .footer-address {
+        width: 100%;
+        padding: 0 20px;
+    }
+}

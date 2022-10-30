@@ -39,6 +39,7 @@
     }
 }
 
+ /* mobile */
 @media screen and (max-width: 600px) {
     #about .container, #skills .container, #projects .container, #contact .container {
         padding: 0 20px;
@@ -54,6 +55,16 @@
     }
     #about .info {
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .list-interests, .box-right .btn-danger {
+        display: block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .box-right .interests-item {
+        justify-content: center;
+        align-items: center;
     }
 
     #projects .projects {

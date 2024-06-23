@@ -29,7 +29,7 @@ export class HeaderComponent implements OnInit {
   responsiveMenuVisible: Boolean = false;
   pageYPosition!: number;
   languageFormControl: FormControl = new FormControl();
-  cvName: string = "lastCv.pdf";
+  cvName: string = "CV_LE_THANH_TUAN.pdf";
 
   constructor(
     private router: Router,
@@ -57,9 +57,8 @@ export class HeaderComponent implements OnInit {
   downloadCV() {
     // app url
     let url = window.location.href;
-
     // Open a new window with the CV
-    window.open(url + "/../assets/cv/" + this.cvName);
+    window.open(url + "/../assets/cv/" + this.cvName, "_blank");
   }
 
   @HostListener('window:scroll', ['getScrollPosition($event)'])

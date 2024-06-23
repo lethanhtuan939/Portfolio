@@ -12,9 +12,11 @@ export class ProjectComponent implements OnInit {
     {
       imgs: [
 
-        '../../../../assets/images/recipe-book/screenshot (1).png',
-        '../../../../assets/images/recipe-book/screenshot (2).png',
-        '../../../../assets/images/recipe-book/screenshot (3).png',
+        '../../../../assets/images/health-declaration/1.jpeg',
+        '../../../../assets/images/health-declaration/2.jpeg',
+        '../../../../assets/images/health-declaration/3.jpeg',
+        '../../../../assets/images/health-declaration/4.jpeg',
+        '../../../../assets/images/health-declaration/5.jpeg',
       ],
       Title: 'Health Declaration',
       Description: 'A website to declare health and manage the epidemic situation in Da Nang city (school project)',
@@ -38,12 +40,18 @@ export class ProjectComponent implements OnInit {
     },
     {
       imgs: [
-        '../../../../assets/images/hotel-reservation/6.png',
+        '../../../../assets/images/vegetfood/1.png',
+        '../../../../assets/images/vegetfood/2.png',
+        '../../../../assets/images/vegetfood/3.png',
+        '../../../../assets/images/vegetfood/4.png',
+        '../../../../assets/images/vegetfood/5.png',
+        '../../../../assets/images/vegetfood/6.png',
+        '../../../../assets/images/vegetfood/7.png',
       ],
       Title: 'Veget Food',
       Description: 'A ecommerce website for vegetarian food (school project)',
       Technologies: ['Spring Boot', 'MySQL', 'Thymeleaf'],
-      ghLink: 'https://github.com/lethanhtuan939/Hotel-Reservation-App',
+      ghLink: 'https://github.com/lethanhtuan939/VegetFood-SpringBoot',
       demoLink: ''
     },
   ]

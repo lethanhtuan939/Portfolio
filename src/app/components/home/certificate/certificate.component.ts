@@ -10,12 +10,12 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 export class CertificateComponent implements OnInit {
   certificates = [
     {
-      Title: 'Java OOP certifi cate of FPT Software',
+      Title: 'Java OOP certificate of FPT Software',
       Organization: ['FPT Software'],
       image: '../../../../assets/images/certificates/java_oop.jpg'
     },
     {
-      Title: 'IRON MAN 70.3 VietNam',
+      Title: 'IRON MAN 70.3 VIETNAM',
       Organization: ['IRONMAN VIETNAM'],
       image: '../../../../assets/images/certificates/ironman.jpg'
     },

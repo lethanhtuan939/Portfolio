@@ -5,11 +5,11 @@
         </a>
         <ul ngbNav #nav="ngbNav" class="menu-ul">
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("about")'><span class='nav-number'>01. </span> <span class="underline nav-text"> About me</span></a>
+                <a ngbNavLink (click)='scroll("about")'><span class='nav-number'>01. </span> <span class="underline nav-text">About me</span></a>
                 <ng-template ngbNavContent>First content</ng-template>
             </li>
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
-                <a ngbNavLink (click)='scroll("jobs")'><span class='nav-number'>02. </span> <span class="underline nav-text"> Experience</span></a>
+                <a ngbNavLink (click)='scroll("jobs")'><span class='nav-number'>02. </span> <span class="underline nav-text">Education</span></a>
                 <ng-template ngbNavContent>Second content</ng-template>
             </li>
             <li ngbNavItem (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>

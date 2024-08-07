@@ -19,6 +19,26 @@ export class CertificateComponent implements OnInit {
       Organization: ['IRONMAN VIETNAM'],
       image: '../../../../assets/images/certificates/ironman.jpg'
     },
+    {
+      Title: 'Problem Solving (Basic)',
+      Organization: ['HACKERRANK'],
+      image: '../../../../assets/images/certificates/problem_solving_basic.jpg'
+    },
+    {
+      Title: 'Java (Basic)',
+      Organization: ['HACKERRANK'],
+      image: '../../../../assets/images/certificates/java_basic.jpg'
+    },
+    {
+      Title: 'Javascript (Basic)',
+      Organization: ['HACKERRANK'],
+      image: '../../../../assets/images/certificates/javascript_basic.jpg'
+    },
+    {
+      Title: 'SQL (Basic)',
+      Organization: ['HACKERRANK'],
+      image: '../../../../assets/images/certificates/sql_basic.jpg'
+    },
   ]
   constructor(
     private router: Router,

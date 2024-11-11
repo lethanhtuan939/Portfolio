@@ -16,6 +16,13 @@
                             <p *ngFor='let jobDescriptionParagraph of job.Description; let i = index' class="job-description">
                                 {{jobDescriptionParagraph}}
                             </p>
+
+                            <div *ngIf='job.Link' class="job-link">
+                                <a *ngFor="let link of job.Link" href="{{link}}" target="_blank">
+                                    <i class="ml-3 fab fa-github"></i> &nbsp;
+                                    {{link}}
+                                </a>
+                            </div>
                             <span></span>
                         </ng-template>
                     </li>
